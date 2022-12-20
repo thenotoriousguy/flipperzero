@@ -5,7 +5,7 @@ write-host $username
 
 Add-Type -AssemblyName System.Drawing
 $line=10
-$filename = "C:\Users\super\Pictures\foo.png" 
+$filename = "foo.png" 
 $bmp = new-object System.Drawing.Bitmap 1920,1080 
 $font = new-object System.Drawing.Font Consolas,24 
 $brushBg = [System.Drawing.Brushes]::White
